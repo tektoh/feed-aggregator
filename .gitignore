@@ -1,0 +1,114 @@
+# CakePHP
+app/tmp/cache/*
+app/tmp/cache/models/*
+!app/tmp/cache/models/empty
+app/tmp/cache/persistent/*
+!app/tmp/cache/persistent/empty
+app/tmp/cache/views/*
+!app/tmp/cache/views/empty
+app/tmp/logs/*
+!app/tmp/logs/empty
+app/tmp/sessions/*
+!app/tmp/sessions/empty
+app/tmp/tests/*
+!app/tmp/tests/empty
+app/Config/core.php
+app/Config/database.php
+app/Config/email.php
+app/Plugin/
+app/Vendor/
+
+# composer
+composer.phar
+vendor/
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Eclipse
+.metadata
+.gradle
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.cproject
+.buildpath
+.texlipse
+
+# PhpStorm
+.idea/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.org-id-locations
+*_archive
+*_flymake.*
+/eshell/history
+/eshell/lastdir
+/elpa/
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Vagrant
+.vagrant/
+
+# Chef
+cookbooks/
+berks-cookbooks/
+
+# Node
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+node_modules
+*.class
+*.merge-left*
+*.merge-right*
+*.mine
+*.prej
+*.pyc
+*.pyo
+*.working
+.svn
+_svn
+svn-commit*.tmp
